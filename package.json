@@ -1,0 +1,32 @@
+{
+  "name": "@apiverve/texttocolor",
+  "version": "1.1.5",
+  "description": "Text to Color is a simple tool for converting color from natural language. It returns the color code based on the text provided.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apiverve/texttocolor-API.git"
+  },
+  "keywords": [
+    "text to color","text to color api","text to color tool","text to color software","text to color service"
+  ],
+  "author": "APIVerve <hello@apiverve.com> (http://apiverve.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/apiverve/texttocolor-API/issues"
+  },
+  "homepage": "https://apiverve.com/marketplace/api/texttocolor?utm_source=npm",
+  "devDependencies": {
+    "mocha": "^10.7.3",
+    "chai": "^5.1.1",
+    "dotenv": "^16.4.5"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2",
+    "promise": "^8.3.0",
+    "axios": "1.7.7"
+  }
+}
